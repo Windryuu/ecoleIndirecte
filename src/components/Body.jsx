@@ -1,10 +1,10 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { Link, RouterProvider, createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <div>ROOOTA
-            <a href="/bleep">bleep</a>
+            <Link to="bleep">Bleep</Link>
         </div>
     },
     {
